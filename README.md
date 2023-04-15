@@ -23,6 +23,11 @@ This repository contains:
 
 ## Summary of the reseach of Fisher’s Iris Data Set
 
+The Fisher Iris Data Set 
+History of The Dataset
+
+The Fisher’s Iris dataset, also referred to as The Iris flower dataset was created by Sir Ronald Aylmer Fisher, born London,England in 1980 and was well-known as a statistician and geneticist [1].
+
 
 
 ### Dependencies
@@ -54,4 +59,7 @@ command to run if program contains helper info
 Emma Dunleavy
 
 ## References
+[1] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
+
+
 https://www.pycodemates.com/2022/05/iris-dataset-classification-with-python.html?utm_content=cmp-true

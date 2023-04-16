@@ -26,9 +26,9 @@ This repository contains:
 The Fisher Iris Data Set 
 History of The Dataset
 
-The Fisher’s Iris dataset, also referred to as The Iris flower dataset, was created by Sir Ronald Aylmer Fisher born in London, England in 1980 and Fisher was widely recognised as a statistician and geneticist. The data within the dataset was in fact collected by Dr. Edgar Anderson [1] and is popular due to it's simple nature which can be used to demonstrate many data science concepts [4]. The dataset consits of 150 samples of three species of Iris - Iris versicolor, Iris virginica and Iris setosa and includes variables such as sepal length and width and petal length and width [2].
+The Fisher’s Iris dataset, also referred to as The Iris flower dataset, was created by Sir Ronald Aylmer Fisher born in London, England in 1980 and Fisher was widely recognised as a statistician and geneticist. The data within the dataset was collected by Dr. Edgar Anderson [1].  The dataset consits of 150 samples of three species of Iris - Iris versicolor, Iris virginica and Iris setosa and includes variables such as sepal length and width and petal length and width [2].
 
- The data consists of 6 columns and 150 rows, has no missing values, only one column has categorical data and all the other columns are numerical with non-Null entries and is describing only three unique species of flowers [3].
+The dataset consists of 6 columns and 150 rows, has no missing values, only one column has categorical data and all the other columns are numerical with non-Null entries and is describing only three unique species of flowers [3] and is popular due to it's simple nature which can be used to demonstrate many data science concepts [4]. 
 
 
 

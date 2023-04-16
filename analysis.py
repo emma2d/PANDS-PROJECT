@@ -24,4 +24,11 @@ iris_data.to_csv("tab_seperated_iris_data.csv", sep="\t")
 # Do not include headers when exporting the data
 iris_data.to_csv("tab_seperated_iris_data.csv", sep="\t", na_rep="Unknown", header=False)
 
+iris_data.to_csv("tab_seperated_iris_data.txt", sep="\t", na_rep="Unknown", header=False)
+
+with open("tab_seperated_iris_data.txt", "wt") as f:
+    f.write(str(iris_data.describe()))
+    f.write(str(iris_data.info))
+
 #reference #https://www.datacamp.com/tutorial/pandas-read-csv
+# https://www.datacamp.com/tutorial/reading-writing-files-python

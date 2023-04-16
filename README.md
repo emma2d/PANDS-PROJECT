@@ -26,7 +26,9 @@ This repository contains:
 The Fisher Iris Data Set 
 History of The Dataset
 
-The Fisher’s Iris dataset, also referred to as The Iris flower dataset was created by Sir Ronald Aylmer Fisher, born London, England in 1980 and was recognised as a statistician and geneticist [1]. The dataset consits of 150 samples of three species of Iris - Iris versicolor, Iris virginica and Iris setosa and includes variables such as sepal length and width and petal length and width [2].
+The Fisher’s Iris dataset, also referred to as The Iris flower dataset, was created by Sir Ronald Aylmer Fisher born in London, England in 1980 and Fisher was widely recognised as a statistician and geneticist. The data within the dataset was in fact collected by Dr. Edgar Anderson [1] and is popular due to it's simple nature which can be used to demonstrate many data science concepts [4]. The dataset consits of 150 samples of three species of Iris - Iris versicolor, Iris virginica and Iris setosa and includes variables such as sepal length and width and petal length and width [2].
+
+ The data consists of 6 columns and 150 rows, has no missing values, only one column has categorical data and all the other columns are numerical with non-Null entries and is describing only three unique species of flowers [3].
 
 
 
@@ -60,5 +62,7 @@ command to run if program contains helper info
 Emma Dunleavy
 
 ## References
-[1] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
-[2] https://www.pycodemates.com/2022/05/iris-dataset-classification-with-python.html?utm_content=cmp-true
+[1] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5, accessed on 15/04/2023
+[2] https://www.pycodemates.com/2022/05/iris-dataset-classification-with-python.html?utm_content=cmp-true, accessed on 15/04/2023
+[3] https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/ accessed on 16/04/2023
+[4] https://levelup.gitconnected.com/unveiling-the-mysteries-of-the-iris-dataset-a-comprehensive-analysis-and-machine-learning-f5c4f9dbcd6d

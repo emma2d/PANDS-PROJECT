@@ -12,10 +12,11 @@ col_names = ["sepal_length_in_cm",
 #import a csv file and assign the column names as iris_data 
 iris_data = pd.read_csv("iris.data.csv", names=col_names) 
 
-print(iris_data.head())
-print(iris_data.tail())
-print(iris_data.info())
+print(iris_data.head()) #prints the first 5 rows
+print(iris_data.tail()) #prints the last 5 rows
+print(iris_data.info()) # 
 print(iris_data.describe())
+print(iris_data.isnull())
 
 # Export the file to the current working directory and change the delimiter from a , to a tab
 iris_data.to_csv("tab_seperated_iris_data.csv", sep="\t")

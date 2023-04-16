@@ -63,6 +63,9 @@ Emma Dunleavy
 
 ## References
 [1] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5, accessed on 15/04/2023
+
 [2] https://www.pycodemates.com/2022/05/iris-dataset-classification-with-python.html?utm_content=cmp-true, accessed on 15/04/2023
+
 [3] https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/ accessed on 16/04/2023
-[4] https://levelup.gitconnected.com/unveiling-the-mysteries-of-the-iris-dataset-a-comprehensive-analysis-and-machine-learning-f5c4f9dbcd6d
+
+[4] https://levelup.gitconnected.com/unveiling-the-mysteries-of-the-iris-dataset-a-comprehensive-analysis-and-machine-learning-f5c4f9dbcd6d, accessed 16/04/2023

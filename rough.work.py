@@ -1,8 +1,8 @@
-import csv
-import pandas as pd
+#Author Emma Dunleavy
 
-# Webpage URL
-url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
+import matplotlib as plt
+import pandas as pd
+import numpy as np
 
 # Define the column names
 col_names = ["sepal_length_in_cm",
@@ -11,7 +11,8 @@ col_names = ["sepal_length_in_cm",
             "petal_width_in_cm",
             "class"]
 
-# Read data from URL
-iris_data = pd.read_csv(url, names=col_names)
+#import a csv file and assign the column names as iris_data 
+iris_data = pd.read_csv("iris.data.csv", names=col_names) 
 
-print(iris_data.head())
+print(f"A concise summary of the iris DataFrame: \n")
+iris_data.info()

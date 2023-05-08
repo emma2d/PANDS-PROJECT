@@ -43,28 +43,28 @@ Data columns (total 5 columns):
 |3  |  petal_width_in_cm | 150 non-null    |float64|
 |4  |  class             | 150 non-null    |object |
 
+Reference [7]
+
 dtypes: float64(4), object(1)
 memory usage: 6.0+ KB
 None
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 The above infomation details the number of columns - 5, the column names as defined,  150 entries for each withno missing entries and defines the type the first 4 as floats and the last as an object. 
 
-Output of iris_data.describe()
-       sepal_length_in_cm  sepal_width_in_cm  petal_length_in_cm  petal_width_in_cm
-count          150.000000         150.000000          150.000000         150.000000
-mean             5.843333           3.054000            3.758667           1.198667
-std              0.828066           0.433594            1.764420           0.763161
-min              4.300000           2.000000            1.000000           0.100000
-25%              5.100000           2.800000            1.600000           0.300000
-50%              5.800000           3.000000            4.350000           1.300000
-75%              6.400000           3.300000            5.100000           1.800000
-max              7.900000           4.400000            6.900000           2.500000
 
+Output of iris_data.describe()
+             |Measure        |sepal_length_in_cm |sepal_width_in_cm  |petal_length_in_cm | petal_width_in_cm|
+|------              |:---:                |:---:                |:---:                   |:---:|
+|count               |     150.000000    |      150.000000   |        150.000000    |     150.000000 |
+|mean                |     5.843333      |      3.054000     |        3.758667      |     1.198667  |
+|sd                  |     0.828066      |      0.433594     |        1.764420      |     0.763161|
+|min                 |     4.300000      |      2.000000     |        1.000000      |     0.100000|
+|25%                 |     5.100000      |      2.800000     |        1.600000      |     0.300000|
+|50%                 |     5.800000      |      3.000000     |        4.350000      |     1.300000|
+|75%                 |     6.400000      |      3.300000     |        5.100000      |     1.800000|
+|max                 |     7.900000      |      4.400000     |        6.900000      |     2.500000|
+
+Reference [7]
 
 
 
@@ -115,3 +115,4 @@ Emma Dunleavy
 [5] https://archive.ics.uci.edu/ml/datasets/iris accessed on 15/04/2023
 
 [6] https://seaborn.pydata.org/installing.html
+[7] https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables

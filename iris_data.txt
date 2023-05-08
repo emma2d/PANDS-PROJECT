@@ -42,3 +42,14 @@ min               4.90000           2.200000            4.500000            1.40
 50%               6.50000           3.000000            5.550000            2.00000
 75%               6.90000           3.175000            5.875000            2.30000
 max               7.90000           3.800000            6.900000            2.50000
+
+This is a summary of the sepal length from the Iris virginica species
+       sepal_length_in_cm  sepal_width_in_cm  petal_length_in_cm  petal_width_in_cm
+count                 0.0                0.0                 0.0                0.0
+mean                  NaN                NaN                 NaN                NaN
+std                   NaN                NaN                 NaN                NaN
+min                   NaN                NaN                 NaN                NaN
+25%                   NaN                NaN                 NaN                NaN
+50%                   NaN                NaN                 NaN                NaN
+75%                   NaN                NaN                 NaN                NaN
+max                   NaN                NaN                 NaN                NaN

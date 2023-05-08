@@ -30,8 +30,23 @@ Iris_versicolor = iris_data[iris_data['class'] == "Iris-versicolor"]
 Iris_virginica = iris_data[iris_data['class'] == "Iris-virginica"]
 
 
-print(iris_setosa.describe())
+#print(iris_setosa.describe())
+#print(Iris_versicolor.describe())
+#print(Iris_virginica.describe())
 
-print(Iris_versicolor.describe())
+iris_data.hist(alpha=0.8, bins=30, figsize=(12,8))
+with open ('graphs.png', "w+") as f:
+    plt.suptitle("Histogram of the Iris petal and sepal measurements")
+    plt.savefig('graphs.png')
+    plt.show
 
-print(Iris_virginica.describe())
+sns.set(style="ticks", palette="deep")
+f, axes = plt.subplots(2, 2, sharey=False, figsize=(12, 8))
+sns.scatterplot(x="petal_length_in_cm", y="petal_width_in_cm", hue = "class",data=iris_data, ax=axes[0,0])
+sns.scatterplot(x="sepal_length_in_cm", y="sepal_width_in_cm", hue="class", data=iris_data, ax=axes[0,1])
+sns.scatterplot(x="petal_length_in_cm", y="sepal_length_in_cm", hue = "class",data=iris_data, ax=axes[1,0])
+sns.scatterplot(x="petal_width_in_cm", y="sepal_width_in_cm", hue="class", data=iris_data, ax=axes[1,1])
+f.suptitle("Scatterplots of the Petal and Sepal measurements by Iris plant Species")
+plt.show()
+
+

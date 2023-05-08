@@ -28,6 +28,10 @@ iris_setosa = iris_data[iris_data['class'] == "Iris-setosa"]
 Iris_versicolor = iris_data[iris_data['class'] == "Iris-versicolor"]
 Iris_virginica = iris_data[iris_data['class'] == "Iris-virginica"]
 
+iris_setosa_sepal_length = iris_data[iris_data['sepal_length_in_cm'] == "Iris-setosa"]
+Iris_versicolor_sepal_length = iris_data[iris_data['sepal_length_in_cm'] == "Iris-versicolor"]
+Iris_virginica_sepal_length = iris_data[iris_data['sepal_length_in_cm'] == "Iris-virginica"]
+
 
 #print(iris_setosa.describe())
 

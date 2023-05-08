@@ -23,43 +23,15 @@ iris_data = pd.read_csv(csv_url, names=col_names) # readsin the data and assigns
 #with open("iris_data.txt", "a") as f: #creates a .txt file, apends the details in "info" and "describe" to the .txt file
     #f.write(str(iris_data.info()))
    #f.close
+    
 
 iris_setosa = iris_data[iris_data['class'] == "Iris-setosa"]
 Iris_versicolor = iris_data[iris_data['class'] == "Iris-versicolor"]
 Iris_virginica = iris_data[iris_data['class'] == "Iris-virginica"]
 
 
-#print(iris_setosa.describe())
+print(iris_setosa.describe())
 
-#print(Iris_versicolor.describe())
+print(Iris_versicolor.describe())
 
-#print(Iris_virginica.describe())
-
-with open("iris_data.txt", "a+") as f: #creates a .txt file, apends the details in "info" and "describe" to the .txt file
-    f.write("\n")
-    f.write("This is a summary of all of the data points from all 3 species")
-    f.write("\n")
-    f.write(str(iris_data.describe()))
-    f.write("\n")
-    f.write("\n")
-    f.write("This is a summary of the data points from the Iris setosa species")
-    f.write("\n")
-    f.write(str(iris_setosa.describe()))
-    f.write("\n")
-    f.write("\n")
-    f.write("This is a summary of the data points from the Iris versicolor species")
-    f.write("\n")
-    f.write(str(Iris_versicolor.describe()))
-    f.write("\n")
-    f.write("\n")
-    f.write("This is a summary of the data points from the Iris virginica species")
-    f.write("\n")
-    f.write(str(Iris_virginica.describe()))
-    f.close
-
-
-
-
-
-
-
+print(Iris_virginica.describe())

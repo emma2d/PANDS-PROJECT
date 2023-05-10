@@ -84,6 +84,17 @@ Output of iris_data.describe()
 
 Reference [7]
 
+![image](https://github.com/emma2d/PANDS-PROJECT/assets/124067038/0d00a0db-2dc0-4b9b-8836-8251d51be267)
+
+The above image has four histograms . The first, in the top left corner, is the sepal length of the three species of iris.  This histogram displays a non-symetric multimodal distribution, meaning there are many peaks, in this case 4, which indicates there much variation across the spead of the data points indicating there is no distinct pattern of sepal length between the species. 
+
+The second histogram, in the top right corner, is the sepal width of the three species. Similarly it depicts a multimodal shape spread over just under 2.5cm between the most narrow and the widest points. It displays what could be described as a bell curve shape, but with gaps and peaks relatively in the centre at 3cm point with over 25 of the 150 data points landing here.
+
+The next histogram, in the bottom left, depicts the petal lenth of the three species. A non symetrical bimodal distribution is observed with 2 distinct peaks, a tall and norrow peak which is likely one of the species of iris, and a shorter wider peak which is mmost probably a mix of the other two species. 
+
+The final histogram, in the bottom right is another multimodal distribution this time diplaying the data points from the petal width of the three species. There is one prominant peak at the lower end of the range, which again could belong to one of the species. There are 4 smaller peaks which... This histogram somewhat mirrors the petal length histogram with the large peak at the lower range, then a gap leading into a second peak but this time with gaps creating multiple peaks. 
+
+![image](https://github.com/emma2d/PANDS-PROJECT/assets/124067038/68a00563-e114-4373-a53b-4626238485bc)
 
 
 ### Dependencies

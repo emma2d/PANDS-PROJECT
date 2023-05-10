@@ -1,4 +1,22 @@
 # PANDS-PROJECT
+---
+
+### Atlantic Technological University - HDip in Computing in Data Analytics
+
+
+### Name of Student:	Emma Dunleavy Kelly
+
+### Student Number:	G00425660
+
+### Module Lecturer:	Andrew Beatty
+
+### Module Title:	PROGRAMMING AND SCRIPTING
+
+### Module Code:	22-23: 52167
+
+### Date Assignment Due:	Friday, 12 May 2023, 10:59 PM
+
+---
 
 
 # Fisher’s Iris Data Set Analysis
@@ -115,4 +133,9 @@ Emma Dunleavy
 [5] https://archive.ics.uci.edu/ml/datasets/iris accessed on 15/04/2023
 
 [6] https://seaborn.pydata.org/installing.html
+
 [7] https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables
+
+[8] www.angela1c.com. (n.d.). Iris_notebook - angela1c.com. [online] Available at: https://www.angela1c.com/projects/iris_project/iris_notebook/ [Accessed 15 April 2023].
+
+‌

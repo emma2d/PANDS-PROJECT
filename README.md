@@ -103,7 +103,9 @@ A scatter plot provides much better defintion than a histogram as it compares tw
 
 When considering the sepal width and length iris-setosa has the shortest and widest sepals, while the other two species were roughly the same width and length with iris-virginica tending to be slightly on the longer side on average. 
 
+There maybe one outlier in the data within the iris-setosa data points in the sepal width
 
+The range of sepal widths are iris-setosa range ~ 2.15cms, iris-virginica ~ 1.5cms and for iris-versicolor ~ 1.5cms. By removing a potential outlier in the iris-setosa data at approx. 2.25cms would bring the remaiing point back in line with the 1.5cm. Note, removing outliers should always be completed with caution. 
 ### Dependencies
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.

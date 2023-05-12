@@ -95,14 +95,21 @@ The range of sepal widths observed for the iris-setosa spans approximately 2.15c
 
 Interestingly the box plot provides even further clarity of the data set especially in relation to outliers. The box plot disproves the theory of outliers in the iris-setosa sepal width data, but istead indicates there are two outliers in the iris virgincia speal width, and one in it's sepal length data. It also shows there is one outlier in the iris-versicolor petal length data and a number in the iris-setosa petal length and width. 
 
-### Dependencies
+From the boxplots it is possible to deduce the following; iris-setosa has the shorest petal and sepal length, the most narrow petal width but the widest sepal width. The iris-virginica has te longest 
+
+### Conclusion
+
+Python program with imported libraries pandas, matplotlib and seaborn enables detailed anaylsis of data and in this project the data in question is the famous iris data set. The command .info() outputs the count, mean, standard deviation, min, 25%, 50%, 75% and max measures of each species. The histogram provides primary analysis but doesn't offer much characterization of the data. The scatter plot graphs allows the user to begin to draw conclusions about each of the species but it is the boxplot graphs that best discribes the data set visually. 
+
+### Instructions
 
 Run command pip install pandas, matplotlib, seaborn and seaborn[stats]
 Install ipkernal for jupiter notebook to run code
 NOTE: You may need to exit VS Code and re-enter to get seaborn to work.
 
 * The program is available for use at https://github.com/emma2d/PANDS-PROJECT
-* Please create a file called images to store the iris boxplox.png image
+* Please create a file called images to store the iris boxplox.png image prior to running code
+* It is required to click out of the histogram and scatter plot in order for the boxplot to generate and it is required to click out of the boxplot for the program to finish running. 
  
 ## References
 [1] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5, accessed on 15/04/2023
@@ -130,6 +137,10 @@ NOTE: You may need to exit VS Code and re-enter to get seaborn to work.
 [12] https://www.datacamp.com/tutorial/pandas-read-csv
 
 [13] https://www.datacamp.com/tutorial/reading-writing-files-python
+
+[14] https://www.datacamp.com/tutorial/pandas-read-csv
+
+(Please note, only the commits for my README have registered on my github profile. I would be happy to demonstrate this over a video call if needs be. Please take this into consideration when marking for consistancy.)
 
 ‌
 

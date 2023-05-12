@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
-sv_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
+csv_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
 
 col_names = ["sepal_length_in_cm",
             "sepal_width_in_cm",
@@ -13,8 +13,7 @@ col_names = ["sepal_length_in_cm",
             "petal_width_in_cm",
             "class"]
 
- 
-iris_data = pd.read_csv("iris.data.csv", names=col_names) 
+iris_data = pd.read_csv(csv_url, names=col_names) 
 
 #print(iris_data.head()) 
 #print(iris_data.tail()) 

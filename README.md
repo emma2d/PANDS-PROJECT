@@ -103,9 +103,15 @@ A scatter plot provides much better defintion than a histogram as it compares tw
 
 When considering the sepal width and length iris-setosa has the shortest and widest sepals, while the other two species were roughly the same width and length with iris-virginica tending to be slightly on the longer side on average. 
 
-There maybe one outlier in the data within the iris-setosa data points in the sepal width
+The range of sepal widths observed for the iris-setosa spans approximately 2.15cms, while the iris-virginica and iris-versicolor both span approximately 1.5cms. There is one point in the iris-setosa data that could potentially be an outlier and by removing this point, observed at approximately 2.25cms, the sepal width for iris-setosa would be 1.5cm, in line with the other two species. Note, removing outliers should always be completed with caution. 
 
-The range of sepal widths are iris-setosa range ~ 2.15cms, iris-virginica ~ 1.5cms and for iris-versicolor ~ 1.5cms. By removing a potential outlier in the iris-setosa data at approx. 2.25cms would bring the remaiing point back in line with the 1.5cm. Note, removing outliers should always be completed with caution. 
+![image](https://github.com/emma2d/PANDS-PROJECT/assets/124067038/cd414959-06bf-419c-8d1f-a275e99c3930)
+### Figure 3 - Boxplot of the petal and sepal measurements of the iris-setosa, iris-virginica and iris-versicolor
+
+Interestingly the box plot provides even further clarity of the data set especially in relation to outliers. The box plot disproves the theory of outliers in the iris-setosa sepal width data, but istead indicates there are two outliers in the iris virgincia speal width, and one in it's sepal length data. It also shows there is one outlier in the iris-versicolor petal length data and a number in the iris-setosa petal length and width. 
+
+
+
 ### Dependencies
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
@@ -159,6 +165,8 @@ Emma Dunleavy
 [8] www.angela1c.com. (n.d.). Iris_notebook - angela1c.com. [online] Available at: https://www.angela1c.com/projects/iris_project/iris_notebook/ [Accessed 15 April 2023].
 
 [9] www.labxchange.org. (n.d.). LabXchange. [online] Available at: https://www.labxchange.org/library/items/lb:LabXchange:10d3270e:html:1.
+
+[10] https://chartio.com/learn/charts/box-plot-complete-guide/
 
 ‌
 

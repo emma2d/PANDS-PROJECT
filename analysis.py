@@ -1,9 +1,8 @@
 #Author: Emma Dunleavy
-#refer to jupitor notebook iris_data.ipynb for all comments
+#Refer to the jupyter notebook iris_data.ipynb for all comments
 
 import matplotlib.pyplot as plt
 import pandas as pd
-import numpy as np
 import seaborn as sns
 
 sv_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
@@ -35,7 +34,7 @@ Iris_virginica = iris_data[iris_data['class'] == "Iris-virginica"]
 #print(Iris_versicolor.describe())
 #print(Iris_virginica.describe())
 
-with open("iris_data.txt", "a+") as f: #creates a .txt file, apends the details in "info" and "describe" to the .txt file
+with open("iris_data.txt", "a") as f: #creates a .txt file, apends the details in "info" and "describe" to the .txt file
     f.write("\n")
     f.write("This is a summary of all of the data points from all 3 species")
     f.write("\n")

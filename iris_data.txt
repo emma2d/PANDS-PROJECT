@@ -52,4 +52,4 @@ min                   NaN                NaN                 NaN                
 25%                   NaN                NaN                 NaN                NaN
 50%                   NaN                NaN                 NaN                NaN
 75%                   NaN                NaN                 NaN                NaN
-max                   NaN                NaN                 NaN                NaN
+max                   NaN                NaN                 NaN                NaNNoneNoneNoneNone

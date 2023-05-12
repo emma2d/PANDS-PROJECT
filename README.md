@@ -129,7 +129,11 @@ run: pip install seaborn
 run: pip install seaborn[stats]
 NOTE: You may need to exit VS Code and re-enter to get seaborn to work.
 
+Install ipkernal for jupiter notebook to run code
+
 ### Executing program
+* Refer to iris_data.ipynb for all code comments
+* Create a folder called images
 
 * How to run the program
 * Step-by-step bullets
@@ -167,6 +171,8 @@ Emma Dunleavy
 [9] www.labxchange.org. (n.d.). LabXchange. [online] Available at: https://www.labxchange.org/library/items/lb:LabXchange:10d3270e:html:1.
 
 [10] https://chartio.com/learn/charts/box-plot-complete-guide/
+
+[11] https://matplotlib.org/3.1.0/api/_as_gen/matplotlib.pyplot.subplots.html
 
 ‌
 

@@ -1,4 +1,4 @@
-# PANDS-PROJECT
+# PANDS-PROJECT - Fisher’s Iris Data Set Analysis
 ---
 
 ### Atlantic Technological University - HDip in Computing in Data Analytics
@@ -18,11 +18,6 @@
 
 ---
 
-
-# Fisher’s Iris Data Set Analysis
-
-Simple overview of use/purpose.
-
 ## Description
 
 This repository contains: 
@@ -32,10 +27,10 @@ This repository contains:
   2. The Fisher’s Iris data set
   
   3. A program called analysis.py that 
-   * Outputs a summary of each variable to a single text file
-   * Saves a histogram of each variable to png files
-   * Outputs a scatter plot of each pair of variables
-   * Performs any other analysis you think is appropriate
+     * Outputs a summary of each variable to a single text file
+     * Saves a histogram of each variable to png files
+     * Outputs a scatter plot of each pair of variables
+     * Performs any other analysis you think is appropriate
 
 
 
@@ -46,12 +41,8 @@ History of The Dataset
 
 The Fisher’s Iris dataset, also referred to as The Iris flower dataset, was created by Sir Ronald Aylmer Fisher born in London, England in 1980 and Fisher was widely recognised as a statistician and geneticist. The data within the dataset was collected by Dr. Edgar Anderson [1].  The dataset consits of 150 samples of three species of Iris - Iris versicolor, Iris virginica and Iris setosa and includes variables such as sepal length and width and petal length and width [2].
 
-The dataset consists of 5 columns and 150 rows, has no missing values, only one column has categorical data and all the other columns are numerical with non-Null entries and is describing only three unique species of flowers [3] and is popular due to it's simple nature which can be used to demonstrate many data science concepts [4]. 
+The dataset consists of 5 columns and 150 rows indexing from 0 to 149, has no missing values, only one column has categorical data and all the other columns are numerical with non-Null entries and is describing only three unique species of flowers [3] and is popular due to it's simple nature which can be used to demonstrate many data science concepts [4]. 
 
-Output of iris_data.info()
-
-RangeIndex: 150 entries, 0 to 149
-Data columns (total 5 columns):
 
 |#  |  Column            |  Non-Null Count | Dtype |
 |---|------------------  |:--------------: |:----- |
@@ -61,28 +52,22 @@ Data columns (total 5 columns):
 |3  |  petal_width_in_cm | 150 non-null    |float64|
 |4  |  class             | 150 non-null    |object |
 
-Reference [7]
+#### Table 1 - Output of iris_data.info() from analysis.py [7]
 
-dtypes: float64(4), object(1)
-memory usage: 6.0+ KB
-None
+---
 
-The above infomation details the number of columns - 5, the column names as defined,  150 entries for each withno missing entries and defines the type the first 4 as floats and the last as an object. 
+|Measure             |sepal_length_in_cm |sepal_width_in_cm  |petal_length_in_cm    | petal_width_in_cm |
+|------              |:---:              |:---:              |:---:                 |:---:              |
+|count               |     150.000000    |      150.000000   |        150.000000    |     150.000000    |
+|mean                |     5.843333      |      3.054000     |        3.758667      |     1.198667      |
+|sd                  |     0.828066      |      0.433594     |        1.764420      |     0.763161      |
+|min                 |     4.300000      |      2.000000     |        1.000000      |     0.100000      | 
+|25%                 |     5.100000      |      2.800000     |        1.600000      |     0.300000      |
+|50%                 |     5.800000      |      3.000000     |        4.350000      |     1.300000      |
+|75%                 |     6.400000      |      3.300000     |        5.100000      |     1.800000      |
+|max                 |     7.900000      |      4.400000     |        6.900000      |     2.500000      |
 
-
-Output of iris_data.describe()
-             |Measure        |sepal_length_in_cm |sepal_width_in_cm  |petal_length_in_cm | petal_width_in_cm|
-|------              |:---:                |:---:                |:---:                   |:---:|
-|count               |     150.000000    |      150.000000   |        150.000000    |     150.000000 |
-|mean                |     5.843333      |      3.054000     |        3.758667      |     1.198667  |
-|sd                  |     0.828066      |      0.433594     |        1.764420      |     0.763161|
-|min                 |     4.300000      |      2.000000     |        1.000000      |     0.100000|
-|25%                 |     5.100000      |      2.800000     |        1.600000      |     0.300000|
-|50%                 |     5.800000      |      3.000000     |        4.350000      |     1.300000|
-|75%                 |     6.400000      |      3.300000     |        5.100000      |     1.800000|
-|max                 |     7.900000      |      4.400000     |        6.900000      |     2.500000|
-
-Reference [7]
+#### Table 2 - Output of iris_data.describe() from analysis.py [7]
 
 ![image](https://github.com/emma2d/PANDS-PROJECT/assets/124067038/0d00a0db-2dc0-4b9b-8836-8251d51be267)
 #### Figure 1 - Histogram of each of the variables in the Iris data set
@@ -110,47 +95,15 @@ The range of sepal widths observed for the iris-setosa spans approximately 2.15c
 
 Interestingly the box plot provides even further clarity of the data set especially in relation to outliers. The box plot disproves the theory of outliers in the iris-setosa sepal width data, but istead indicates there are two outliers in the iris virgincia speal width, and one in it's sepal length data. It also shows there is one outlier in the iris-versicolor petal length data and a number in the iris-setosa petal length and width. 
 
-
-
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-run command pip install Scikit-learn, pandas, numpy, matplotlib
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-run: pip install seaborn
-[notice] A new release of pip available: 22.3.1 -> 23.1.2
-[notice] To update, run: python.exe -m pip install --upgrade pip
-run: pip install seaborn[stats]
+Run command pip install pandas, matplotlib, seaborn and seaborn[stats]
+Install ipkernal for jupiter notebook to run code
 NOTE: You may need to exit VS Code and re-enter to get seaborn to work.
 
-Install ipkernal for jupiter notebook to run code
-
-### Executing program
-* Refer to iris_data.ipynb for all code comments
-* Create a folder called images
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Author
-Emma Dunleavy
-
+* The program is available for use at https://github.com/emma2d/PANDS-PROJECT
+* Please create a file called images to store the iris boxplox.png image
+ 
 ## References
 [1] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5, accessed on 15/04/2023
 
@@ -173,6 +126,10 @@ Emma Dunleavy
 [10] https://chartio.com/learn/charts/box-plot-complete-guide/
 
 [11] https://matplotlib.org/3.1.0/api/_as_gen/matplotlib.pyplot.subplots.html
+
+[12] https://www.datacamp.com/tutorial/pandas-read-csv
+
+[13] https://www.datacamp.com/tutorial/reading-writing-files-python
 
 ‌
 
